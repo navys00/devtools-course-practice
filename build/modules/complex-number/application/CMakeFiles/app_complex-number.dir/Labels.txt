@@ -1,0 +1,7 @@
+# Target labels
+ complex-number
+ Application
+# Source files and their labels
+D:/вуз - 3 курс/инструмены программирования/Popov-Andrey-lab1/modules/complex-number/application/complex-number.cpp
+ complex-number
+ Application
