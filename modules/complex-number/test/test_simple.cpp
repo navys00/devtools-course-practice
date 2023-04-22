@@ -1,4 +1,4 @@
-// Copyright 2021 Dmitry Kurtaev
+// Copyright 2023 Popov Andrey
 
 #include <gtest/gtest.h>
 
