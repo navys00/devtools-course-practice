@@ -1,0 +1,10 @@
+^D:\ВУЗ - 3 КУРС\ИНСТРУМЕНЫ ПРОГРАММИРОВАНИЯ\DEVTOOLS-COURSE-PRACTICE\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/вуз - 3 курс/инструмены программирования/devtools-course-practice/build/_deps/googletest-subbuild" "-BD:/вуз - 3 курс/инструмены программирования/devtools-course-practice/build/_deps/googletest-subbuild" --check-stamp-file "D:/вуз - 3 курс/инструмены программирования/devtools-course-practice/build/_deps/googletest-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

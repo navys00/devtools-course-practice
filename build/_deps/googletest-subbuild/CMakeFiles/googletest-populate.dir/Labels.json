@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/\u0432\u0443\u0437 - 3 \u043a\u0443\u0440\u0441/\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u044b \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f/devtools-course-practice/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "D:/\u0432\u0443\u0437 - 3 \u043a\u0443\u0440\u0441/\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u044b \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f/devtools-course-practice/build/_deps/googletest-subbuild/CMakeFiles/c8c8cc721020e9a9c61cbe78399be93b/googletest-populate.rule"
+		},
+		{
+			"file" : "D:/\u0432\u0443\u0437 - 3 \u043a\u0443\u0440\u0441/\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u044b \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f/devtools-course-practice/build/_deps/googletest-subbuild/CMakeFiles/15bef5b2e7eeb94062a3fe5b2f166b4f/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "D:/\u0432\u0443\u0437 - 3 \u043a\u0443\u0440\u0441/\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u044b \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f/devtools-course-practice/build/_deps/googletest-subbuild/CMakeFiles/3fcba7fb68b1f668c513e36c674da802/googletest-populate-build.rule"
+		},
+		{
+			"file" : "D:/\u0432\u0443\u0437 - 3 \u043a\u0443\u0440\u0441/\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u044b \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f/devtools-course-practice/build/_deps/googletest-subbuild/CMakeFiles/3fcba7fb68b1f668c513e36c674da802/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "D:/\u0432\u0443\u0437 - 3 \u043a\u0443\u0440\u0441/\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u044b \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f/devtools-course-practice/build/_deps/googletest-subbuild/CMakeFiles/3fcba7fb68b1f668c513e36c674da802/googletest-populate-download.rule"
+		},
+		{
+			"file" : "D:/\u0432\u0443\u0437 - 3 \u043a\u0443\u0440\u0441/\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u044b \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f/devtools-course-practice/build/_deps/googletest-subbuild/CMakeFiles/3fcba7fb68b1f668c513e36c674da802/googletest-populate-install.rule"
+		},
+		{
+			"file" : "D:/\u0432\u0443\u0437 - 3 \u043a\u0443\u0440\u0441/\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u044b \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f/devtools-course-practice/build/_deps/googletest-subbuild/CMakeFiles/3fcba7fb68b1f668c513e36c674da802/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/\u0432\u0443\u0437 - 3 \u043a\u0443\u0440\u0441/\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u044b \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f/devtools-course-practice/build/_deps/googletest-subbuild/CMakeFiles/3fcba7fb68b1f668c513e36c674da802/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "D:/\u0432\u0443\u0437 - 3 \u043a\u0443\u0440\u0441/\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u044b \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f/devtools-course-practice/build/_deps/googletest-subbuild/CMakeFiles/3fcba7fb68b1f668c513e36c674da802/googletest-populate-test.rule"
+		},
+		{
+			"file" : "D:/\u0432\u0443\u0437 - 3 \u043a\u0443\u0440\u0441/\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u044b \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f/devtools-course-practice/build/_deps/googletest-subbuild/CMakeFiles/3fcba7fb68b1f668c513e36c674da802/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}
