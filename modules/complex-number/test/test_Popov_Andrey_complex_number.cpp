@@ -5,11 +5,13 @@
 #include <tuple>
 #include "include/complex_number.h"
 
-TEST(Popov_A_complex_number, Equality) {
-  std::pair<ComplexNumber, ComplexNumber> eq_pair{ComplexNumber(3.0, 1.0),
-                                                  ComplexNumber(3.0, 1.0)};
+TEST(Popov_A_complex_number, Substraction) {
+  ComplexNumber z1(6.0, 6.0);
+  ComplexNumber z2(5.0, 5.0);
 
-  EXPECT_EQ(eq_pair.first, eq_pair.second);
+  ComplexNumber z1_Sub_z2 = z1 - z2;
+
+  EXPECT_EQ(z1_Sub_z2, ComplexNumber(1.0, 1.0));
 }
 
 TEST(Popov_A_complex_number, Sum) {
