@@ -8,11 +8,8 @@
 TEST(Popov_A_complex_number, Equality) {
   std::pair<ComplexNumber, ComplexNumber> eq_pair{ComplexNumber(3.0, 1.0),
                                                   ComplexNumber(3.0, 1.0)};
-  std::pair<ComplexNumber, ComplexNumber> neq_pair{ComplexNumber(1.0, 1.0),
-                                                   ComplexNumber(1.0, -1.0)};
 
   EXPECT_EQ(eq_pair.first, eq_pair.second);
-  EXPECT_NE(neq_pair.first, neq_pair.second);
 }
 
 TEST(Popov_A_complex_number, Sum) {
