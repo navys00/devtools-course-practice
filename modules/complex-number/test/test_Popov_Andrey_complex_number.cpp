@@ -6,12 +6,12 @@
 #include "include/complex_number.h"
 
 TEST(Popov_A_complex_number, Substraction) {
-  ComplexNumber z1(6.0, 6.0);
-  ComplexNumber z2(5.0, 5.0);
+  ComplexNumber z1(10.0, 5.0);
+  ComplexNumber z2(2.0, 3.0);
 
   ComplexNumber z1_Sub_z2 = z1 - z2;
 
-  EXPECT_EQ(z1_Sub_z2, ComplexNumber(1.0, 1.0));
+  EXPECT_EQ(z1_Sub_z2, ComplexNumber(8.0, 2.0));
 }
 
 TEST(Popov_A_complex_number, Sum) {
