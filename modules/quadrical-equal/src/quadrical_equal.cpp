@@ -15,7 +15,7 @@ Quadrical_equal::Quadrical_equal() {
   this->c = 0;
 }
 
-std::string Quadrical_equal::solution(int a, int b, int c) {
+std::string Quadrical_equal::solution(double a, double b, double c) {
   this->a = a;
   this->b = b;
   this->c = c;
