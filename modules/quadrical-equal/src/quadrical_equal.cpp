@@ -34,8 +34,7 @@ std::string Quadrical_equal::solution(int a, int b, int c) {
   if (D < 0) {
     std::string ans = "No solution";
     return ans;
-  } 
-  else {
+  } else {
     std::string ans = "Non expected D";
     return ans;
   }
