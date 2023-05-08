@@ -23,11 +23,11 @@ class Quadrical_equal {
      * @param[in] multiplier b
      * @param[in] multiplier c
      */
-    std::string solution(int a, int b, int c);
+    std::string solution(double a, double b, double c);
 
  private:
-    int x1, x2, a, b, c;
-    float D = 0;
+    double x1, x2, a, b, c;
+    double D = 0;
 };
 
 //! @}
