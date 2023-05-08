@@ -3,6 +3,7 @@
 #include "include/quadrical_equal.h"
 
 #include <stdbool.h>
+#include<string>
 #include <cmath>
 #include <limits>
 
@@ -14,7 +15,7 @@ Quadrical_equal::Quadrical_equal() {
   this->c = 0;
 }
 
-float Quadrical_equal::solution(int a, int b, int c) {
+std::string Quadrical_equal::solution(int a, int b, int c) {
   this->a = a;
   this->b = b;
   this->c = c;
@@ -22,13 +23,15 @@ float Quadrical_equal::solution(int a, int b, int c) {
   if (D > 0) {
     x1 = ((-b) + sqrt(D)) / (2 * a);
     x2 = ((-b) - sqrt(D)) / (2 * a);
-    return x1, x2;
+    std::string ans = std::to_string(x1)+"_"+std::to_string(x2);
+    return ans;
   }
   if (D == 0) {
     x1 = -(b / (2 * a));
-    return x1;
+    std::string ans = std::to_string(x1);
+    return ans;
   }
   if (D < 0) {
-    return -1;
+    return "No solution";
   }
 }

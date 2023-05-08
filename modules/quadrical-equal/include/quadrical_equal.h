@@ -3,6 +3,8 @@
 #ifndef MODULES_QUADRICAL_EQUAL_INCLUDE_QUADRICAL_EQUAL_H_
 #define MODULES_QUADRICAL_EQUAL_INCLUDE_QUADRICAL_EQUAL_H_
 
+#include <string>
+
 //! @addtogroup quadrical-equal
 //! @{
 
@@ -21,7 +23,7 @@ class Quadrical_equal {
      * @param[in] multiplier b
      * @param[in] multiplier c
      */
-    float solution(int a, int b, int c);
+    std::string solution(int a, int b, int c);
 
  private:
     int x1, x2, a, b, c;
