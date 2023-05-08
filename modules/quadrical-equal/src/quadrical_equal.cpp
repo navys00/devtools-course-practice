@@ -25,17 +25,12 @@ std::string Quadrical_equal::solution(int a, int b, int c) {
     x2 = ((-b) - sqrt(D)) / (2 * a);
     std::string ans = std::to_string(x1)+"_"+std::to_string(x2);
     return ans;
-  }
-  if (D == 0) {
+  } else if (D == 0) {
     x1 = -(b / (2 * a));
     std::string ans = std::to_string(x1);
     return ans;
-  }
-  if (D < 0) {
+  } else if (D < 0) {
     std::string ans = "No solution";
-    return ans;
-  } else {
-    std::string ans = "Non expected D";
     return ans;
   }
 }
