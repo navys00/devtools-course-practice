@@ -3,11 +3,11 @@
 #include <stdbool.h>
 
 #include <limits>
-#include <string>
+#include <cmath>
 
 #include "include/quadrical_equal.h"
 
-Quadratic_equation::Quadratic_equation() {
+Quadrical_equal::Quadrical_equal() {
   x1 = 0;
   x2 = 0;
   this->a = 0;
@@ -15,7 +15,7 @@ Quadratic_equation::Quadratic_equation() {
   this->c = 0;
 }
 
-float Quadratic_equation::solution(int a, int b, int c) {
+float Quadrical_equal::solution(int a, int b, int c) {
   this->a = a;
   this->b = b;
   this->c = c;
