@@ -32,6 +32,11 @@ std::string Quadrical_equal::solution(int a, int b, int c) {
     return ans;
   }
   if (D < 0) {
-    return "No solution";
+    std::string ans = "No solution";
+    return ans;
+  } 
+  else {
+    std::string ans = "Non expected D";
+    return ans;
   }
 }
