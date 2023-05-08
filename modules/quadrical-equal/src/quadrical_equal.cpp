@@ -1,11 +1,10 @@
 // Copyright 2023 Popov Andrey
 
-#include <stdbool.h>
-
-#include <limits>
-#include <cmath>
-
 #include "include/quadrical_equal.h"
+
+#include <stdbool.h>
+#include <cmath>
+#include <limits>
 
 Quadrical_equal::Quadrical_equal() {
   x1 = 0;
