@@ -20,10 +20,10 @@ set_tests_properties (${prefix}_help_works PROPERTIES
     LABELS "${MODULE}")
 
 add_test(
-    NAME ${prefix}_help_works
+    NAME ${prefix}_help_works2
     COMMAND ${APPLICATION}
 )
-set_tests_properties (${prefix}_help_works PROPERTIES
+set_tests_properties (${prefix}_help_works2 PROPERTIES
     PASS_REGULAR_EXPRESSION "0"
     LABELS "${MODULE}")
 
