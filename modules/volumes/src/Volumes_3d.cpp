@@ -5,7 +5,6 @@
 #include "include/Volumes.h"
 
 std::string application::operator()(int argc, char** argv) {
-  double result = -1;
   if (argc == 1) {
     return help(argv[0]);
   }
