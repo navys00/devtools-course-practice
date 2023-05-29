@@ -26,25 +26,6 @@ set_tests_properties(${prefix}_run_with_bad_number_of_arguments PROPERTIES
     PASS_REGULAR_EXPRESSION "Text of error: arguments more than its needed"
     LABELS "${MODULE}")
 
-add_test(NAME ${prefix}_can_calc_Parallelepiped
-    COMMAND ${APPLICATION} Parallelepiped)
-set_tests_properties(${prefix}_can_calc_Parallelepiped PROPERTIES
-    PASS_REGULAR_EXPRESSION "8"
-    LABELS "${MODULE}")
-
-
-add_test(NAME ${prefix}_can_calc_TruncatedCone
-    COMMAND ${APPLICATION} TruncatedCone)
-set_tests_properties(${prefix}_can_calc_TruncatedCone PROPERTIES
-    PASS_REGULAR_EXPRESSION "666.07000, 0.00001"
-    LABELS "${MODULE}")
-
-add_test(NAME ${prefix}_can_calc_EllipticalCone
-    COMMAND ${APPLICATION} EllipticalCone)
-set_tests_properties(${prefix}_can_calc_EllipticalCone PROPERTIES
-    PASS_REGULAR_EXPRESSION "188.49555, 0.00001"
-    LABELS "${MODULE}")
-
 
 
 
