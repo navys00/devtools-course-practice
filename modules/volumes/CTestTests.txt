@@ -21,6 +21,13 @@ set_tests_properties (${prefix}_help_works PROPERTIES
     LABELS "${MODULE}")
 
 
+add_test(
+    NAME ${prefix}_validate_works
+    COMMAND ${APPLICATION}
+)
 
+set_tests_properties (${prefix}_validate_works PROPERTIES
+    PASS_REGULAR_EXPRESSION true
+    LABELS "${MODULE}")
 
 
