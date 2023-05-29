@@ -14,7 +14,7 @@ std::string application::operator()(int argc, char** argv) {
   }
   arguments args;
   if (args.operation == "Parallelepiped") {
-    double result = Parallelepiped(2, 2, 2);
+    result = Parallelepiped(2, 2, 2);
   }
   if (args.operation == "TruncatedCone")
     result = TruncatedCone(5, 8, 8, 4.9, 4.9);
