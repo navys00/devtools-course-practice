@@ -27,7 +27,7 @@ add_test(
 )
 
 set_tests_properties (${prefix}_validate_works PROPERTIES
-    PASS_REGULAR_EXPRESSION true
+    PASS_REGULAR_EXPRESSION "true"
     LABELS "${MODULE}")
 
 
