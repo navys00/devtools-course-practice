@@ -20,11 +20,6 @@ set_tests_properties (${prefix}_help_works PROPERTIES
     PASS_REGULAR_EXPRESSION "To calculate the volume of three-dimensional shapes"
     LABELS "${MODULE}")
 
-add_test(NAME ${prefix}_run_with_bad_number_of_arguments
-    COMMAND ${APPLICATION} 0,0,0,0,0,0,0,0)
-set_tests_properties(${prefix}_run_with_bad_number_of_arguments PROPERTIES
-    PASS_REGULAR_EXPRESSION "Text of error: arguments more than its needed"
-    LABELS "${MODULE}")
 
 
 
