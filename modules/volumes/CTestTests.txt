@@ -1,0 +1,21 @@
+#############################################
+##### Testing
+#############################################
+
+set(prefix "${MODULE}")
+
+add_test(
+    NAME ${prefix}_runnable
+    COMMAND ${APPLICATION}
+)
+set_tests_properties (${prefix}_runnable PROPERTIES
+    LABELS "${MODULE}")
+
+add_test(
+    NAME ${prefix}_help_works
+    COMMAND ${APPLICATION}
+)
+
+set_tests_properties (${prefix}_help_works PROPERTIES
+    PASS_REGULAR_EXPRESSION "It is a string encoder/decoder into base64."
+    LABELS "${MODULE}")
