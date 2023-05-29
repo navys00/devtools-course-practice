@@ -17,5 +17,5 @@ add_test(
 )
 
 set_tests_properties (${prefix}_help_works PROPERTIES
-    PASS_REGULAR_EXPRESSION "It is a string encoder/decoder into base64."
+    PASS_REGULAR_EXPRESSION "This is an application for calculating the volume of three-dimensional shapes"
     LABELS "${MODULE}")
