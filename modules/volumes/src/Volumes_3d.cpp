@@ -8,6 +8,7 @@ std::string application::operator()(int argc, char** argv) {
   if (argc == 1) {
     return help(argv[0]);
   }
+  return 0;
 }
 
 std::string application::help(const std::string& an) {
