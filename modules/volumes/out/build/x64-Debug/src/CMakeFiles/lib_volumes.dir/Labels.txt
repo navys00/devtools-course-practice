@@ -1,0 +1,16 @@
+# Target labels
+ volumes
+ Library
+# Source files and their labels
+D:/вуз - 3 курс/инструмены программирования/Popov-Andrey-lab3/modules/volumes/src/Volumes.cpp
+ volumes
+ Library
+D:/вуз - 3 курс/инструмены программирования/Popov-Andrey-lab3/modules/volumes/src/Volumes_3d.cpp
+ volumes
+ Library
+D:/вуз - 3 курс/инструмены программирования/Popov-Andrey-lab3/modules/volumes/include/Volumes.h
+ volumes
+ Library
+D:/вуз - 3 курс/инструмены программирования/Popov-Andrey-lab3/modules/volumes/include/Volumes_3d.h
+ volumes
+ Library

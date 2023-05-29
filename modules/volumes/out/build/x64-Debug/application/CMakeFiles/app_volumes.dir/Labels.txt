@@ -1,0 +1,7 @@
+# Target labels
+ volumes
+ Application
+# Source files and their labels
+D:/вуз - 3 курс/инструмены программирования/Popov-Andrey-lab3/modules/volumes/application/application.cpp
+ volumes
+ Application

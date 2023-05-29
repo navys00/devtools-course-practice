@@ -1,0 +1,10 @@
+# Target labels
+ volumes
+ Test
+# Source files and their labels
+D:/вуз - 3 курс/инструмены программирования/Popov-Andrey-lab3/modules/volumes/test/main.cpp
+ volumes
+ Test
+D:/вуз - 3 курс/инструмены программирования/Popov-Andrey-lab3/modules/volumes/test/test_volumes.cpp
+ volumes
+ Test

@@ -9,7 +9,7 @@ std::string application::operator()(int argc, char** argv) {
   if (argc == 1) {
     return help(argv[0]);
   }
-  if (argc >2) {
+  if (argc >7) {
     return "Text of error: arguments more than its needed";
   }
   arguments args;
