@@ -25,7 +25,7 @@ std::string application::operator()(int argc, char** argv) {
 }
 
 std::string application::help(const std::string& an) {
-  return "This is an application for calculating the volume of three-dimensional shapes";
+  return "To calculate the volume of three-dimensional shapes";
 }
 
 bool application::validate(const std::string& str) { return true; }
