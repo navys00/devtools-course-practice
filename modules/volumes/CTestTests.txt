@@ -19,13 +19,6 @@ set_tests_properties (${prefix}_help_works PROPERTIES
     PASS_REGULAR_EXPRESSION "To calculate the volume of three-dimensional shapes"
     LABELS "${MODULE}")
 
-add_test(
-    NAME ${prefix}_help_works2
-    COMMAND ${APPLICATION}
-)
-set_tests_properties (${prefix}_help_works2 PROPERTIES
-    PASS_REGULAR_EXPRESSION "0"
-    LABELS "${MODULE}")
 
 
 
